@@ -2,7 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import FeedbackContext from '../context/FeedbackContext';
 
-function FeedbackStates({}) {
+function FeedbackStates() {
   const { feedback } = useContext(FeedbackContext);
 
   let average =
